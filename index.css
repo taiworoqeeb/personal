@@ -5,13 +5,29 @@ body {
 	border: 5px;
 
 }
-h1{
+
+header{
 	color: white;
-	text-align: center;
+	text-align: left;
 	font-size: small;
-	font-family: Helvetica, sans-serif;
+	font-family: sans-serif;
+	font-style: inherit;
 	font: small;
+	margin: 9px;
+	padding: 9px;
+	border: 5px;
 }
+
+.homepage{
+	margin: 5px;
+	padding: 5px;
+	color: white;
+	font: small;
+	font-family: sans-serif;
+	border: 5px;
+}
+
+
 .nav-item{
 	font-size: small;
 	padding: 5px;
@@ -39,7 +55,7 @@ h1{
 	color: black;
 	padding: 10px;
 	font-size: small;
-	background-color: #292828;
+	background-color: #3b3838;
 }
 .dropdown-menu{
 	display: none;
