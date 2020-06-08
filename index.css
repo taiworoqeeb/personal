@@ -8,32 +8,25 @@ body {
 h1{
 	color: white;
 	text-align: center;
+	font-size: small;
+	font-family: Helvetica, sans-serif;
+	font: small;
 }
-
-
-.navlinks{
-	display: inline-block;;
-	list-style: none;
-	text-align: left;
-	text-underline-position: none;
-	padding: 16px;
-	font-size: 16px;
-	font: bold;
+.nav-item{
+	font-size: small;
+	padding: 5px;
 	border: 5px;
-	font-style: arial;
-	background-color: #808080;
-	color: black;
-	position: left;
+	font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .dropdown-toggle{
-	background-color: #808080;
+	background-color: #3f3b3b;
 	color: black;
-	padding: 16px;
-	font-size: 16px;
+	padding: 5px;
+	font-size: 5px;
 	border: 5px;
 	cursor: pointer;
+	font: small;
 }
 .dropdown{
 	position: relative;
@@ -42,29 +35,35 @@ h1{
 	border: 5px;
 	
 }
+.dropdown-item{
+	color: black;
+	padding: 10px;
+	font-size: small;
+	background-color: #292828;
+}
 .dropdown-menu{
 	display: none;
 	position: absolute;
-	background-color: #798686;
-	min-width: 100px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,5,2);
+	background-color: #575f5f;
+	min-width: 50px;
+	box-shadow: 0px 8px 16px 0px rgba(2,1,5,2);
 }
 .dropdown-menu a{
 	color: black;
-	padding: 12px 16px;
+	padding: 5px, 5px;
 	text-decoration: none;
 	display: block;
 }
 .dropdown-menu a:hover {
-	background-color: #f1f1f1;
+	background-color: #524e4e;
 }
 .dropdown:hover .dropdown-menu {
 	display: block;
 }
 .dropdown:hover .dropdown-toggle{
-	background-color: #808080;
-	padding: 16px;
-	font-size: 16px;
+	background-color: #292828;
+	padding: 14px;
+	font-size: 14px;
 	font: bold;
 	border: 5px;
 	display: inline-block;
