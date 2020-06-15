@@ -16,18 +16,22 @@ header.startup h2 {
 	font-family: Aladin;
 	color: white;
 	font-size: 3em;
-	border-bottom: 2px solid pink;
+	border-bottom: 2px solid blue;
 	width: 400px;
 	text-align: center;
 	margin-top: 10px;
 }
-div.homepage{
+section.homepage{
 	margin: 10px;
 	padding: 5px;
 	color: white;
 	font-size: medium;
 	font-family: sans-serif;
-	border: 5px;
+	border-bottom: 1px solid blue;
+	text-align: justify;
+	transition: all 0.5s;
+	display: grid;
+	grid-template-rows: 2fr;
 }
 .container {
 	display: flex;
@@ -38,7 +42,7 @@ img {
 	width: 200px;
 	height: 150px;
 	margin: 10px;
-	transition: all 0.5s;
+	transition: all 0.5s linear;
 }
 
 img:hover {
@@ -54,6 +58,6 @@ img:hover {
 	font-size: small;
 	padding: 5px;
 	border: 5px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: sans-serif;
 }
 
