@@ -6,11 +6,16 @@ body,html{
   	background-size: cover;
   	height: 100%;
 }
-form.formdiv{
-	border: 5px;
-	margin: 5px
+div{
+	border: 2px;
+	margin: 5px;
+	display: grid;
+}
+small{
+	color: white;
 }
 h1{
+	color: white;
 	font: bold;
 	font-size: large;
 	font-family: sans-serif;
