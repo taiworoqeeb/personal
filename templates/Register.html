@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTER</title>
-    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aladin">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="Register.css">
+  </head>
 <body>
-    <header>
+    <header class="startup">
         <h2> ABDULRAQEEB HUB </h2>
      </header>
-     <nav>
-        <ul class="nav nav-pills justify-content-end">
+     <nav class="nav-menu justify-content-end">
+        <ul class="nav nav-pills">
             <li class="nav-item">
               <a class="nav-link" href="index.html">HOME</a>
             </li>
@@ -25,34 +26,48 @@
             <li class="nav-item">
               <a class="nav-link" href="About.html">ABOUT</a>
             </li>
+            <div class="dropdown">
+              <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CATEGORIES
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <a class="dropdown-item" type="button" href="phone.html">Phone</a>
+                <a class="dropdown-item" type="button" href="laptop.html">Laptop</a>
+                <a class="dropdown-item" type="button" href="accessories.html">Accessories</a>
+                <a class="dropdown-item" type="button" href="tesla.html">Tesla Cars</a>
+              </div>
+              </div>
           </ul>
+          
     </nav>
         <h1>
           REGISTER
         </h1>
-        <form>
+        <form class="formdiv">
             <div class="form-row">
-              <div class="col-md-2">
+              <div class="col-md-3 col-sm-3">
                 <input type="text" class="form-control" placeholder="First name">
               </div>
-              <div class="col-md-2">
+              <div class="col-md-3 col-sm-3">
                 <input type="text" class="form-control" placeholder="Last name">
               </div>
             </div>
             <div class="form-row">
-               <div class="form-group col-md-2">
+               <div class="form-group col-md-3 col-sm-3">
                 <input type="email" class="form-control" placeholder="Email" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
               </div>
-              <div class="form-group col-md-2">
+              <div class="form-group col-md-3 col-sm-3">
                 <input type="password" class="form-control" placeholder="Password" aria-describedby="passwordHelpBlock">
-                <small id="passwordHelpBlock" class="form-text text-muted">
+                <small id="passwordHelpBlock" class="form-text">
                   Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
                 </small>
               </div>
             </div>
           </form>
       
-      
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>     
 </body>
 </html>

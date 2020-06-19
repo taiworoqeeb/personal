@@ -3,32 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REGISTER</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aladin">
+    <title> MarketPlace </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="Register.css">
   </head>
 <body>
     <header class="startup">
-        <h2> ABDULRAQEEB HUB </h2>
+        <h2> MarketPlace </h2>
      </header>
-     <nav>
-        <ul class="nav nav-pills justify-content-end">
+     <nav class="nav-menu justify-content-end">
+        <ul class="nav nav-pills">
             <li class="nav-item">
               <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="Register.html">REGISTER</a>
+              <a class="nav-link active" href="Register.html">SIGN UP</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Login.html">LOGIN</a>
+              <a class="nav-link" href="Login.html">SIGN IN</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="About.html">ABOUT</a>
             </li>
             <div class="dropdown">
-              <button class="btn btn-primary btn-md dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                CATEGORIES
+              <button class="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenu2" aria-setsize="small" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PRODUCTS
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <a class="dropdown-item" type="button" href="phone.html">Phone</a>
@@ -43,27 +42,36 @@
         <h1>
           REGISTER
         </h1>
-        <form class="formdiv">
+        <form class="formdiv" method="POST">
             <div class="form-row">
-              <div class="col-md-2">
+              <div class="col-md-3 col-sm-3">
                 <input type="text" class="form-control" placeholder="First name">
               </div>
-              <div class="col-md-2">
+              <div class="col-md-3 col-sm-3">
                 <input type="text" class="form-control" placeholder="Last name">
               </div>
             </div>
             <div class="form-row">
-               <div class="form-group col-md-2">
+               <div class="form-group col-md-3 col-sm-3">
                 <input type="email" class="form-control" placeholder="Email" aria-describedby="emailHelp">
                 <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
               </div>
-              <div class="form-group col-md-2">
+              <div class="form-group col-md-3 col-sm-3">
+                <input type="number" class="form-control" placeholder="Mobile Number" aria-describedby="mobileHelpBlock">
+                <small id="mobileHelpBlock" class="form-text">
+                  Your mobile number should start with your country's postal code follow by the number e.g +2348000000000.
+                </small>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-3 col-sm-3">
                 <input type="password" class="form-control" placeholder="Password" aria-describedby="passwordHelpBlock">
                 <small id="passwordHelpBlock" class="form-text">
                   Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
                 </small>
               </div>
-            </div>
+          </div>
+            <button class="btn btn-primary btn-sm submit-button">Submit</button>
           </form>
       
           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

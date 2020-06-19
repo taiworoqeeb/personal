@@ -1,29 +1,67 @@
+body,html{
+	width: auto;
+	height: auto;
+	background-position: center;
+  	background-image: url("image.jpg");
+  	background-size: cover;
+}
 div{
-	border: 5px;
-	margin: 5px
+	border: 2px;
+	margin: 5px;
+}
+small{
+	color: white;
 }
 h1{
+	color: white;
 	font: bold;
-	font-size: small;
+	font-size: large;
 	font-family: sans-serif;
-	margin: auto;
+	margin: 5px;
 	padding: 5px;
 	border: 5px;
-}
-.nav-item{
-	font-size: small;
-	padding: 5px;
-	border: 5px;
-	font-family: Arial, Helvetica, sans-serif;
-}
-header{
-	color: black;
 	text-align: left;
-	font-size: small;
-	font-family: sans-serif;
-	font-style: inherit;
-	font: small;
-	margin: 9px;
-	padding: 9px;
-	border: 5px;
+
+}
+.nav-menu{
+	display: flex;
+	list-style: none;
+	padding: 2px;
+	margin: 5px;
+	font-size: 0.7em;
+}
+
+
+header.startup h2{
+	font-family: Aladin;
+	color: white;
+	font-size: 2em;
+	border-bottom: 2px solid blue;
+	width: 400px;
+	text-align: center;
+	margin-top: 10px;
+}
+@media only screen and (max-width: 600px){
+	.nav-menu{
+		font-size: 0.4em;
+		padding: 0%;
+	}
+	h2{
+		font-size: 0.5em;
+		padding: 0%;
+	}
+	.dropdown-toggle{
+		font-size: 1.5em;
+		padding: 0%;
+	}
+	.formdiv{
+		size: 0.4em;
+		font-size: 0.5em;
+		padding: 0%;
+	}
+	.dropdown-menu{
+		font-size: 1.5em;
+		padding: 0%;
+		border: 2px;
+	}
 }
