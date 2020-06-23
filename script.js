@@ -5,3 +5,4 @@ return total;
 };
 
 countPets();
+
