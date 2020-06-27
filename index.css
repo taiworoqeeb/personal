@@ -32,23 +32,31 @@ header.startup h2 {
 }
 @media only screen and (max-width: 600px){
 	.nav-menu{
-		font-size: 0.2em;
+		font-size: 0.4em;
 		padding: 0%;
 	}
-	header.startup h2{
+	h2{
 		font-size: 0.5em;
+		padding: 0%;
 		width: 100px;
+	}
+	.dropdown-toggle{
+		font-size: 1.5em;
 		padding: 0%;
 	}
 	.homepage{
-		font-size: 0.8em;
+		font-size: 0.5em;
 		padding: 0%;
-	
 	}
-	img{
+	.dropdown-menu{
+		font-size: 1.5em;
+		padding: 5px;
+		border: 2px;
+	}
+	.container img{
 		width: 100px;
 		height: 50px;
-		margin: 5px;
+		margin: 10px;
 	}
 }
 .container {
