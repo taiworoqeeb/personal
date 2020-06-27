@@ -61,9 +61,9 @@ img:hover {
 		padding: 0%;
 	}
 	header.startup h2{
-		font-size: 0.5em;
+		font-size: 0.2em;
 		padding: 0%;
-		width: 100px;
+		width: 50px;
 	}
 	.dropdown-toggle{
 		font-size: 1.5em;
@@ -71,14 +71,14 @@ img:hover {
 	}
 	.homepage{
 		font-size: 0.7em;
-		padding: 10px%;
+		padding: 10px;
 	}
 	.dropdown-menu{
 		font-size: 1.5em;
 		padding: 5px;
 		border: 2px;
 	}
-	.container img{
+	img{
 		width: 100px;
 		height: 50px;
 		margin: 10px;
