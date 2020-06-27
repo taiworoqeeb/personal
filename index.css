@@ -32,11 +32,12 @@ header.startup h2 {
 }
 @media only screen and (max-width: 600px){
 	.nav-menu{
-		font-size: 0.4em;
+		font-size: 0.2em;
 		padding: 0%;
 	}
-	h2{
+	header.startup h2{
 		font-size: 0.5em;
+		width: 100px;
 		padding: 0%;
 	}
 	.homepage{
@@ -45,9 +46,9 @@ header.startup h2 {
 	
 	}
 	img{
-		width: 150px;
-		height: 100px;
-		margin: 10px;
+		width: 100px;
+		height: 50px;
+		margin: 5px;
 	}
 }
 .container {
