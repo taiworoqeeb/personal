@@ -138,16 +138,16 @@ form{
 header.startup h2{
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	color: black;
-	font-size: 2em;
+	font-size: 1.5em;
 	border-bottom: 2px solid blue;
-	width: 400px;
+	width: 200px;
 	text-align: center;
 	margin-top: 10px;
 }
 
 @media only screen and (max-width: 600px){
 	.nav-menu{
-		font-size: 0.4em;
+		font-size: 0.5em;
 		padding: 0%;
 	}
 	header.startup h2{
@@ -160,13 +160,22 @@ header.startup h2{
 		padding: 0%;
 	}
 	form{
-		size: 0.4em;
-		font-size: 0.5em;
+		font-size: 0.7em;
 		padding: 0%;
 	}
 	.dropdown-menu{
 		font-size: 1.5em;
 		padding: 0%;
 		border: 2px;
-	}
+  }
+  .form-label-group{
+    padding: 0%;
+  }
+  input[type="email"]{
+    height: 50%;
+  }
+  
+  input[type="password"]{
+    height: 50%;
+  }
 }
