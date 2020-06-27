@@ -1,9 +1,14 @@
 body,html{
 	width: auto;
-	height: auto;
+	height: 100%;
 	background-position: center;
   	background-image: url("image.jpg");
   	background-size: cover;
+}
+body{
+	align-items: center;
+	padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 header.startup h2 {
@@ -17,16 +22,13 @@ header.startup h2 {
 
 }
 .homepage{
-	margin: 5px;
-	padding: 5px;
-	border-top: 5px;
+	margin: auto;
+	padding: 40px;
 	color: white;
 	font-size: medium;
 	font-family: sans-serif;
-	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 50vh;
 }
 @media only screen and (max-width: 600px){
 	.nav-menu{
@@ -60,8 +62,8 @@ img:hover {
 .nav-menu{
 	display: flex;
 	list-style: none;
-	padding: 2px;
-	margin: 5px;
+	padding-right: 20px;
+	margin: 15px;
 	font-size: 0.7em;
 	
 }

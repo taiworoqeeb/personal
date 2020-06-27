@@ -43,17 +43,23 @@
         <h1>
             SIGN IN
         </h1>
-    <form class="formsign" method="POST">
+    <form class="form-signin" method="POST">
         
-        <div class="form-column">
-            <div class="form-group">
-             <input type="email" class="form-control" placeholder="Email">
-           </div>
-           <div class="form-group">
-            <input type="password" class="form-control" placeholder="Password">
-          </div>
-          <br>
-          <input type="submit" class="btn btn-primary" value="Submit">
+      <div class="form-label-group">
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+        <label for="inputEmail">Email address</label>
+      </div>
+      <div class="form-label-group">
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+        <label for="inputPassword">Password</label>
+      </div>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+          
+      <button class="btn btn-sm btn-primary btn-block" type="submit">Sign in</button>
       </div>
     </form>
     </div>
