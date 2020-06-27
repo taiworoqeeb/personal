@@ -16,7 +16,9 @@ div{
 small{
 	color: black;
     margin: none;
-    font-size: x-small;
+	font-size: x-small;
+	text-align: justify;
+	width: 50%;
 }
 input[placeholder], input[type="submit"]{
 	font-size: small;
@@ -116,5 +118,6 @@ label[for="dropdownMenu2"]{
 		margin: none;
 		font-size: small;
 		width: 50%;
+		text-align: justify;
 	}
 }
