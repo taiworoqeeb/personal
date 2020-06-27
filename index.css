@@ -55,6 +55,12 @@ img:hover {
 	
 }
 
+label[for="dropdownMenu2"]{
+	font-size: small;
+}
+.dropdown-toggle{
+	height: 80%;
+}
 @media only screen and (max-width: 600px){
 	.nav-menu{
 		font-size: 0.4em;

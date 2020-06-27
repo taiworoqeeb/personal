@@ -130,7 +130,7 @@ form{
 .nav-menu{
 	display: flex;
 	list-style: none;
-	padding: 2px;
+	padding: 20px;
 	margin: 5px;
 	font-size: 0.7em;
 }
@@ -145,9 +145,15 @@ header.startup h2{
 	margin-top: 10px;
 }
 
+label[for="dropdownMenu2"]{
+	font-size: small;
+}
+.dropdown-toggle{
+	height: 80%;
+}
 @media only screen and (max-width: 600px){
 	.nav-menu{
-		font-size: 0.5em;
+		font-size: 0.6em;
 		padding: 0%;
 	}
 	header.startup h2{
